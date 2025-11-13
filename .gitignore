@@ -27,9 +27,15 @@ client/node_modules
 client/build
 
 # Python
-server/__pycache__/
-
+server/cenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 .env
+
+client/node_modules/
+client/.env
 
 
 
